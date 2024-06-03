@@ -1,0 +1,105 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+a{
+	text-decoration: none;
+	color: darkblue;
+}
+
+ul{
+	list-style-type: none;
+}
+
+
+header {
+    background-color: bisque;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+
+
+.container{
+	margin: 0 auto;
+	max-width: 900px;
+	width: 100%;
+
+}
+
+ul{
+	display: flex;
+    justify-content: space-between;
+    width: 600px;
+}
+
+nav{
+	display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.icon{
+	display: flex;
+    gap: 30px;
+    align-items: center;
+    border-left: 1px solid #000;
+    padding-left: 30px;
+}
+
+.cart{
+/*	width: 40px;
+	height: 40px;
+	display: flex;*/
+	position: relative;
+}
+.heart{
+/*	width: 40px;
+	height: 40px;
+	display: flex;*/
+	position: relative;
+}
+
+.cart_img{
+	width: 20px;
+	height: 20px;
+}
+.heart_img{
+	width: 20px;
+	height: 20px;
+}
+
+.cart_text{
+	background-color: red;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50%;
+	width: 15px;
+	height: 15px;
+	position: absolute;
+	top: -5px;
+	right: -10px;
+	color: white;
+}
+
+
+.heart_text{
+	background-color: red;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50%;
+	width: 15px;
+	height: 15px;
+	position: absolute;
+	top: -5px;
+	right: -10px;
+	color: white;
+
+}
